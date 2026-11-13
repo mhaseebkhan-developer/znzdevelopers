@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zanzibar Resorts</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="shortcut icon"
+      href="images/ZNZ Logo Transparnets.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+
+
+
+      <link rel="stylesheet" href="styles/responsive-fixes.css" />
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=75" />
+  </head>
+  <body>
+    <div class="whatsapp-icon" id="whatsapp-icon">
+      <i class="fa-brands fa-whatsapp"></i>
+    </div>
+    <div class="translate-button" id="google_translate_element"></div>
+
+    <!-- ========== Start navbar and fullwidth menu ========== -->
+    <nav class="navbar">
+      <div class="d-flex justify-content-between align-items-center w-100">
+        <a href="#" class="logo"
+          ><img src="images/ZNZ Logo Transparnets.png" alt="znz-logo" class="blue-logo" / decoding="async">
+          <img
+            src="images/znz logo white.png"
+            alt="znz-white-logo"
+            class="white-logo"
+          / decoding="async">
+          <span class="slogan">
+            <span class="bar"></span>
+            <p class="slogan-para" data-aos="fade-right">
+              We <br />Build <br />Legacies
+            </p>
+          </span>
+        </a>
+        <div class="menu-icon" role="button" tabindex="0" aria-label="Open navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <div class="fullscreen-menu">
+      <ul class="menu-items">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/about.html">About</a></li>
+        <li><a href="pages/project.html">Projects</a></li>
+        <li><a href="pages/blog.html">Blog</a></li>
+        <li><a href="pages/contact.html">Contact Us</a></li>
+        <li>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=61576932955493"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/znzdevelopers/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.pinterest.com/znz_developers/"><i class="fab fa-pinterest"></i></a>
+            <a href="https://www.tiktok.com/@znz.developers"><i class="fab fa-tiktok"></i></a>
+            <a href="https://x.com/ZNZ_Developers/"><i class="fa-brands fa-square-x-twitter"></i></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- ========== End navbar and fullwidth menu ========== -->
+
+    <!-- ========== Start hero-section ========== -->
+    <section class="hero-section">
+      <div class="video-background" style="background: url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=75') center / cover no-repeat;">
+        <video autoplay muted loop playsinline preload="metadata" poster="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=75" data-play-in-view>
+          <source src="https://videos.pexels.com/video-files/3139195/3139195-hd_1920_1080_30fps.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="video-overlay"></div>
+
+      <div class="hero-content">
+        <div class="hero-subtitle">Welcome to Excellence</div>
+        <h1 class="hero-title">Zanzibar Awaits: Your Dream Resort Getaway</h1>
+        <p class="hero-description">
+          Welcome to ZNZ Developers, a leading name in the creation and sale of
+          luxury residences on the breathtaking island of Zanzibar.
+        </p>
+        <a href="pages/about.html" class="cta-button">Learn More</a>
+      </div>
+    </section>
+    <!-- ========== End hero-section ========== -->
+   
+    <!-- ========== Start About Section ========== -->
+    <!-- <h2 class="project-heading reasons-bg"></h2> -->
+    <section class="about-section">
+      <div class="background-imag"></div>
+      <div class="floating-shape shape-1"></div>
+      <div class="floating-shape shape-2"></div>
+
+      <div class="container" id="cont" style="display: flex;">
+        <div class="about-content">
+          <div id="about-text">
+            <div class="section-title"></div>
+            <h2 class="about-heading">Crafting Excellence With Passion</h2>
+            <p class="about-description">
+              We are a collective of creative minds, whether you seek a serene
+              retreat or a valuable investment opportunity, ZNZ Developers offers
+              you the perfect gateway to experience the unmatched beauty and
+              lifestyle of island living.
+            </p>
+            <a href="pages/about.html" class="about-link">Read More...</a>
+            </div>
+          </div>
+          <div class="bgi"><img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1400&q=75" alt="" decoding="async" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End About Section ========== -->
+    <div class="marquee-container">
+     <div class="marquee-track">
+      <span class="white">*ZNZ</span>
+      <span class="yellow">*DEVELOPERS</span>
+      <span class="whites">*LIMITED</span>
+      <span class="yellow">*ZNZ</span>
+      <span class="whites">*DEVELOPERS</span>
+      <span class="yellow">*LIMITED</span>
+      <span class="whites">*ZNZ</span>
+      <span class="yellow">*DEVELOPERS</span>
+      <span class="whites">*LIMITED</span>
+
+      <!-- duplicate for seamless loop -->
+      <span class="yellow">*ZNZ</span>
+      <span class="whites">*DEVELOPERS</span>
+      <span class="yellow">*LIMITED</span>
+      <span class="whites">*ZNZ</span>
+      <span class="yellow">*DEVELOPERS</span>
+      <span class="whites">*LIMITED</span>
+      <span class="yellow">*ZNZ</span>
+      <span class="whites">*DEVELOPERS</span>
+      <span class="yellow">*LIMITED</span>
+     </div>
+   </div>
+    <!-- ========== Start why to choose zanzibar  ========== -->
+    <h2 class="project-heading reasons-bg">Why to Choose Zanzibar?</h2>
+    <div class="villa-wrapper">
+    <div class="villa-info" id="textContent">
+      <h2 class="villa-title" id="villaTitle">OUR VILLAS</h2>
+      <p class="villa-description" id="villaDescription">
+        At ZANZIBAR we value privacy and tranquility. Therefore, each of our nine villas come with their private outside space, plunge pool and dedicated butler.
+      </p>
+      <a href="pages/project.html" class="btn-explore">View Details</a>
+
+    </div>
+
+    <div class="villa-gallery">
+      <div class="villa-slide fade">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=75" alt="Villa 1" decoding="async" loading="lazy">
+      </div>
+      <div class="villa-slide fade">
+        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=75" alt="Villa 2" decoding="async" loading="lazy">
+      </div>
+      <div class="villa-slide fade">
+        <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=75" alt="Villa 3" decoding="async" loading="lazy">
+      </div>
+
+      <a class="nav-prev" onclick="changeSlide(-1)">&#10094;</a>
+      <a class="nav-next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+  </div>
+    <!-- ========== End why to choose zanzibar  ========== -->
+
+    <!-- ========== Start our projects cube section ========== -->
+    <h2 class="reasons-heading" data-aos="fade-up">OUR PROJECTS</h2>
+    <div class="bod">
+      <div class="main-container" id="mainContainer">
+      
+        <!-- Cube -->
+        <div class="cube-wrapper" id="cubeWrapper">
+      <div class="scene">
+        <div class="cube-face front" data-title="ZNZ Large Luxury Villa Houses" data-desc="Coming Soon..."><span></span></div>
+        <div class="cube-face back" data-title="ZNZ Luxury Apartments" data-desc="Coming Soon..."><span></span></div>
+        <div class="cube-face right" data-title="ZNZ Dreams Villa Zanzibar House" data-desc="Coming Soon..."><span></span></div>
+        <div class="cube-face left" data-title="ZNZ Dreams Chalet Villa Zanzibar" data-desc="Coming Soon..."><span></span></div>
+      </div>
+        </div>
+      
+        <!-- Hexagon -->
+        <div class="hexagon-wrapper" id="hexagonBox">
+      <!-- <div class="hex-back"></div> -->
+      <div class="hex-front">
+        <button class="close-btn" id="closeBtn">&times;</button>
+        <h1 id="boxTitle">ZNZ DEVELOPERS</h1>
+        <p id="boxDesc">Coming soon...</p>
+        <a href="pages/project.html">Read More</a>
+      </div>
+        </div>
+      
+      </div>
+    </div>
+    <!-- ========== End our projects cube section ========== -->
+
+    <!-- ========== Start timeline steps section ========== -->
+    <div class="sec5">
+      <div class="custom-shape-divider-top-1737897020">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none">
+          <path
+            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+            opacity=".25"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+            opacity=".5"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <div class="container2">
+        <div class="container2-bg"></div>
+        <h2
+          class="project-heading timeline-heading"
+          style="color: white; text-transform: uppercase; margin-bottom: 2rem;">
+        
+          Road map to own your piece of heaven on earth
+        </h2>
+        <div class="tree-container">
+
+  <div class="tree-steps">
+
+    <div class="tree-node">
+      <i class="fa-solid fa-map-location-dot"></i>
+      <div class="tree-label">CHOOSE YOUR PROPERTY</div>
+      <div class="tree-dot"></div>
+    </div>
+
+    <div class="tree-node">
+      <i class="fa-solid fa-shield-alt"></i>
+      <div class="tree-label">SECURE YOUR PROPERTY</div>
+      <div class="tree-dot"></div>
+    </div>
+
+    <div class="tree-node">
+      <i class="fa-solid fa-coins"></i>
+      <div class="tree-label">PAY IN INSTALLMENTS</div>
+      <div class="tree-dot"></div>
+    </div>
+
+    <div class="tree-node">
+      <i class="fa-solid fa-hand-holding-usd"></i>
+      <div class="tree-label">REAP <br> THE RENT</div>
+      <div class="tree-dot"></div>
+    </div>
+
+    <div class="tree-line"></div>
+
+  </div>
+
+</div>
+      </div>
+    </div>
+    <!-- ========== End timeline steps section ========== -->
+
+    <!-- ========== Start video section  ========== -->
+    <section class="video-section">
+      <div class="floating-shape shape-1 bg"></div>
+      <div class="floating-shape shape-2 bg"></div>
+      <div class="video-container" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+        <div class="luxury-border"></div>
+        <div class="video-wrapper">
+          <video id="myVideo" class="main-video" preload="none" controls="" poster="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=75">
+            <!-- Streaming a royalty-free stock clip from an external media host. -->
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-tropical-island-landscape-view-4692-large.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="video-overlay2">
+            <div class="play-button-container">
+              <div class="play-button"></div>
+            </div>
+            <h3 class="video-title" style="translate: none; rotate: none; scale: none; transform: translate(0px, 20px); opacity: 1;">
+              LOOK BEAUTY OF ZANZIBAR <br>
+              AT A GLANCE!
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End video section  ========== -->
+   
+    <!-- ========== Start footer  ========== -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-logo">
+            <img src="images/znz logo white.png" alt="" / decoding="async" loading="lazy">
+            <span class="slogan">
+              <span class="bar"></span>
+              <p class="slogan-para" data-aos="fade-right">
+                We <br />Build <br />Legacies
+              </p>
+            </span>
+          </div>
+          <p class="footer-description"></p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=61576932955493"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/znzdevelopers/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.pinterest.com/znz_developers/"><i class="fab fa-pinterest"></i></a>
+            <a href="https://www.tiktok.com/@znz.developers"><i class="fab fa-tiktok"></i></a>
+            <a href="https://x.com/ZNZ_Developers/"><i class="fa-brands fa-square-x-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3 class="footer-heading">Quick Links</h3>
+          <ul class="footer-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/project.html">Projects</a></li>
+            <li><a href="pages/blog.html">Blog</a></li>
+            <li><a href="pages/contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3 class="footer-heading left-align">Contact Us</h3>
+          <div class="contact-info">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Bwejuu, Zanzibar – Tanzania</span>
+          </div>
+          <div class="contact-info">
+            <i class="fas fa-phone"></i>
+            <span
+              ><a
+                href="tel:+255748926732"
+                style="text-decoration: none; color: var(--alice-blue)"
+                >+255761877877</a
+              ></span
+            >
+          </div>
+          <div class="contact-info">
+            <i class="fas fa-envelope"></i>
+            <span
+              ><a
+                href="mailto:info.znzdevelopers@gmail.com"
+                style="text-decoration: none; color: var(--alice-blue)"
+                >info@znzdevelopers.com</a
+              ></span
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 <b>ZNZ Developers</b>. All rights reserved. Developed by <b>Al Atash Media Power</b></p>
+      </div>
+    </footer>
+    <!-- ========== End footer  ========== -->
+     <script>
+      // Video functionality
+const myVideo = document.getElementById("myVideo");
+const videoOverlay = document.querySelector(".video-overlay2");
+const videoTitle = document.querySelector(".video-title");
+const playButton = document.querySelector(".play-button-container");
+
+// Play button click handler
+playButton.addEventListener("click", () => {
+  // Play button animation
+  gsap.to(playButton, {
+    scale: 0.9,
+    duration: 0.1,
+    yoyo: true,
+    repeat: 1,
+    ease: "power2.out",
+  });
+
+  // Video play/pause logic
+  if (myVideo.paused) {
+    myVideo.play();
+    gsap.to(videoOverlay, {
+      opacity: 0,
+      duration: 0.3,
+      onComplete: () => {
+        videoOverlay.style.pointerEvents = "none";
+      },
+    });
+  } else {
+    myVideo.pause();
+    gsap.to(videoOverlay, {
+      opacity: 1,
+      duration: 0.3,
+      onStart: () => {
+        videoOverlay.style.pointerEvents = "auto";
+      },
+    });
+  }
+});
+
+// Video click handler
+myVideo.addEventListener("click", () => {
+  if (myVideo.paused) {
+    myVideo.play();
+    videoOverlay.style.opacity = "0";
+    videoOverlay.style.pointerEvents = "none";
+  } else {
+    myVideo.pause();
+    videoOverlay.style.opacity = "1";
+    videoOverlay.style.pointerEvents = "auto";
+  }
+});
+     </script>
+    <!-- ========== Start scripts ========== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            defaultLanguage: "en",
+            pageLanguage: "en",
+            includedLanguages: "de,ru,fr,en,es,it,ar,sw",
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+            autoDisp1ay: false,
+            multilanguagePage: true,
+          },
+          "google_translate_element"
+        );
+      }
+      document
+        .querySelector(".translate-button")
+        .addEventListener("click", function () {
+          document.querySelector(".hero-section").classList.add("mt-40");
+        });
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/navbar.js"></script>
+    <script src="scripts/footer.js"></script>
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+window.addEventListener("load", () => {
+  gsap.fromTo(
+    ".hero-subtitle",
+    { opacity: 0, y: 20 },
+    { opacity: 1, y: 0, duration: 1, ease: "power3.out" }
+  );
+
+  gsap.fromTo(
+    ".hero-title",
+    { opacity: 0, y: 20 },
+    { opacity: 1, y: 0, duration: 1, delay: 0.3, ease: "power3.out" }
+  );
+
+  gsap.fromTo(
+    ".hero-description",
+    { opacity: 0, y: 20 },
+    { opacity: 1, y: 0, duration: 1, delay: 0.6, ease: "power3.out" }
+  );
+
+  gsap.fromTo(
+    ".cta-button",
+    { opacity: 0, y: 20 },
+    { opacity: 1, y: 0, duration: 1, delay: 0.9, ease: "power3.out" }
+  );
+});
+
+// Initial background parallax setup
+gsap.to(".background-image", {
+  scale: 1,
+  duration: 2,
+  ease: "power2.out",
+});
+
+// Scroll-based animations
+const aboutContent = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".about-section",
+    start: "top center",
+    end: "center center",
+    toggleActions: "play none none reverse",
+  },
+});
+
+aboutContent
+  .fromTo(
+    ".section-title",
+    { opacity: 0, x: -20 },
+    { opacity: 1, x: 0, duration: 1, ease: "power3.out" }
+  )
+  .fromTo(
+    ".about-heading",
+    { opacity: 0, y: 30 },
+    { opacity: 1, y: 0, duration: 1, ease: "power3.out" },
+    "-=0.7"
+  )
+  .fromTo(
+    ".about-description",
+    { opacity: 0, y: 30 },
+    { opacity: 1, y: 0, duration: 1, ease: "power3.out" },
+    "-=0.7"
+  )
+  .fromTo(
+    ".about-link",
+    { opacity: 0, y: 30 },
+    { opacity: 1, y: 0, duration: 1, ease: "power3.out" },
+    "-=0.7"
+  )
+  .fromTo(
+    ".bgi",
+    { opacity: 0, y: 30 },
+    { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" },
+    "-=0.7")
+    ;
+
+// Parallax effect on scroll
+gsap.to(".background-image", {
+  scrollTrigger: {
+    trigger: ".about-section",
+    start: "top top",
+    end: "bottom top",
+    scrub: true,
+  },
+  y: "20%",
+  ease: "none",
+});
+
+var swiper = new Swiper(".mySwiper", {
+  speed: 2000,
+  parallax: true,
+  autoplay: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+//project scetion
+const cubeContainer = document.querySelector(".cube-container");
+const popup1 = document.querySelector(".project-popup1");
+const popup2 = document.querySelector(".project-popup2");
+const popup3 = document.querySelector(".project-popup3");
+const popup4 = document.querySelector(".project-popup4");
+const closeBtn1 = document.querySelector(".close-btn1");
+const closeBtn2 = document.querySelector(".close-btn2");
+const closeBtn3 = document.querySelector(".close-btn3");
+const closeBtn4 = document.querySelector(".close-btn4");
+const front = document.querySelector(".front");
+const back = document.querySelector(".back ");
+const right = document.querySelector(".right");
+const left = document.querySelector(".left");
+
+front.addEventListener("mouseenter", () => {
+  cubeContainer.classList.add("shifted");
+  popup1.classList.add("active");
+
+  // GSAP animation for smooth popup entrance
+  gsap.from(".project-popup1", {
+    opacity: 0,
+    scale: 0.8,
+    duration: 0.8,
+    ease: "power2.out",
+  });
+});
+back.addEventListener("mouseenter", () => {
+  cubeContainer.classList.add("shifted");
+  popup2.classList.add("active");
+
+  // GSAP animation for smooth popup entrance
+  gsap.from(".project-popup2", {
+    opacity: 0,
+    scale: 0.8,
+    duration: 0.8,
+    ease: "power2.out",
+  });
+});
+left.addEventListener("mouseenter", () => {
+  cubeContainer.classList.add("shifted");
+  popup3.classList.add("active");
+
+  // GSAP animation for smooth popup entrance
+  gsap.from(".project-popup3", {
+    opacity: 0,
+    scale: 0.8,
+    duration: 0.8,
+    ease: "power2.out",
+  });
+});
+right.addEventListener("mouseenter", () => {
+  cubeContainer.classList.add("shifted");
+  popup4.classList.add("active");
+
+  // GSAP animation for smooth popup entrance
+  gsap.from(".project-popup4", {
+    opacity: 0,
+    scale: 0.8,
+    duration: 0.8,
+    ease: "power2.out",
+  });
+});
+
+closeBtn1.addEventListener("click", (e) => {
+  e.stopPropagation();
+  cubeContainer.classList.remove("shifted");
+  popup1.classList.remove("active");
+});
+closeBtn2.addEventListener("click", (e) => {
+  e.stopPropagation();
+  cubeContainer.classList.remove("shifted");
+  popup2.classList.remove("active");
+});
+closeBtn3.addEventListener("click", (e) => {
+  e.stopPropagation();
+  cubeContainer.classList.remove("shifted");
+  popup3.classList.remove("active");
+});
+closeBtn4.addEventListener("click", (e) => {
+  e.stopPropagation();
+  cubeContainer.classList.remove("shifted");
+  popup4.classList.remove("active");
+});
+
+gsap.to(".video-container", {
+  opacity: 1,
+  y: 0,
+  duration: 1,
+  ease: "power3.out",
+});
+// Hover animations
+videoOverlay.addEventListener("mouseenter", () => {
+  gsap.to(videoTitle, {
+    opacity: 1,
+    y: 0,
+    duration: 0.5,
+    ease: "power2.out",
+  });
+});
+
+videoOverlay.addEventListener("mouseleave", () => {
+  gsap.to(videoTitle, {
+    opacity: 0,
+    y: 20,
+    duration: 0.5,
+    ease: "power2.in",
+  });
+});
+
+// Animate floating shapes
+gsap.to(".shape-11", {
+  rotation: 360,
+  duration: 20,
+  repeat: -1,
+  ease: "none",
+});
+
+gsap.to(".shape-22", {
+  rotation: -360,
+  duration: 25,
+  repeat: -1,
+  ease: "none",
+});
+
+    </script>
+    <script>
+  let slideIndex = 0;
+  const slides = document.getElementsByClassName("villa-slide");
+  const textSection = document.getElementById("textContent");
+  const title = document.getElementById("villaTitle");
+  const desc = document.getElementById("villaDescription");
+
+  const slideTexts = [
+    {
+      title: "ECONOMIC STABILITY",
+      desc: "With a stable economy and strong government support for real estate development, Zanzibar offers a secure and promising environment for investors. The high demand for prime properties makes it a lucrative opportunity."
+    },
+    {
+      title: "ATTRACTIVE INCENTIVE FOR BUYERS",
+      desc: "The government offers various incentives, including tax benefits, reduced property transfer fees, and simplified acquisition processes. This creates a transparent investor-friendly environment, making real estate investment in Zanzibar both rewarding and hassle-free."
+    },
+    {
+      title: "HIGH RETURNS ON INVESTMENTS(ROI)",
+      desc: "Zanzibar’s thriving tourism industry and ongoing infrastructure development are driving property values higher. Investors can expect substantial returns, especially from short-term vacation rentals and luxury real estate projects."
+    }
+  ];
+
+  function showSlide(n) {
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slides[n].style.display = "block";
+
+    title.innerText = slideTexts[n].title;
+    desc.innerText = slideTexts[n].desc;
+
+    textSection.style.animation = "none";
+    textSection.offsetHeight; // force reflow
+    textSection.style.animation = "fadeInText 1s forwards";
+  }
+
+  function changeSlide(n) {
+    slideIndex += n;
+    if (slideIndex >= slides.length) slideIndex = 0;
+    if (slideIndex < 0) slideIndex = slides.length - 1;
+    showSlide(slideIndex);
+  }
+
+  // Show the first slide
+  showSlide(slideIndex);
+
+  // Auto slide every 10 seconds (10000 milliseconds)
+  setInterval(() => changeSlide(1), 10000);
+</script>
+<script>
+  const nodes = document.querySelectorAll('.tree-node');
+
+  nodes.forEach(node => {
+    const dot = node.querySelector('.tree-dot');
+
+    node.addEventListener('mouseenter', () => {
+      dot.style.backgroundColor = '#2a2a72';
+    });
+
+    node.addEventListener('mouseleave', () => {
+      dot.style.backgroundColor = 'orange';
+    });
+  });
+</script>
+<script>
+const closeBtn = document.getElementById('closeBtn');
+const hexagonBox = document.getElementById('hexagonBox');
+const mainContainer = document.getElementById('mainContainer');
+const boxTitle = document.getElementById('boxTitle');
+const boxDesc = document.getElementById('boxDesc');
+const faces = document.querySelectorAll('.cube-face');
+
+function closeHexagon() {
+  hexagonBox.classList.remove('show');
+  mainContainer.classList.remove('show-hex');
+}
+
+// Show hexagon on hover
+faces.forEach(face => {
+  face.addEventListener('mouseenter', () => {
+    const title = face.getAttribute('data-title');
+    const desc = face.getAttribute('data-desc');
+    boxTitle.textContent = title;
+    boxDesc.textContent = desc;
+
+    hexagonBox.classList.add('show');
+    mainContainer.classList.add('show-hex');
+  });
+});
+
+// Close on outside click
+document.addEventListener('click', (e) => {
+  const isHex = hexagonBox.contains(e.target);
+  const isCube = e.target.closest('.scene');
+  if (!isHex && !isCube) {
+    closeHexagon();
+  }
+});
+
+// Close button
+closeBtn.addEventListener('click', () => {
+  closeHexagon();
+});
+</script>
+
+    <!-- ========== End scripts ========== -->
+    <script src="scripts/media-performance.js" defer></script>
+</body>
+</html>
